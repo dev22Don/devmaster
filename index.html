@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6YWB4ECCWW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6YWB4ECCWW");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" /> -->
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+
+    <!-- Title -->
+    <title>Doni Cloud</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand"
+          ><img src="./assets/images/logo/logo-dark.svg" alt="Logo"
+        /></a>
+
+        <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+          <li class="nav-item">
+            <a
+              class="nav-link nav-icon"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasNav"
+              role="button"
+              aria-controls="offcanvasNav"
+            >
+              <span class="bi bi-list"></span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- mobile user menu -->
+      </div>
+    </nav>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNav"
+      aria-labelledby="offcanvasNavLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavLabel">
+          jenis-jenis Komputasi awan
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav nav-minimal" id="toc-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link fs-4"
+              href="#menu-1"
+              data-bs-toggle="collapse"
+              role="button"
+              aria-expanded="false"
+              aria-controls="menu-1"
+              >Public cloud</a
+            >
+            <div class="collapse" id="menu-1" data-bs-parent="#toc-nav">
+              <ul class="nav nav-minimal nav-minimal-columns">
+                <div class="accordion-body">
+                  <p class="text-secondary">
+                    komputasi awan yang disediakan oleh penyedia layanan
+                    komputasi awan, seperti Amazon Web Services (AWS), Microsoft
+                    Azure, dan Google Cloud Platform. Public cloud menawarkan
+                    layanan komputasi awan yang terjangkau dan dapat diakses
+                    oleh siapa saja.
+                  </p>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link fs-4"
+              href="#menu-2"
+              data-bs-toggle="collapse"
+              role="button"
+              aria-expanded="false"
+              aria-controls="menu-2"
+              >Private cloud</a
+            >
+            <div class="collapse" id="menu-2" data-bs-parent="#toc-nav">
+              <ul class="nav nav-minimal nav-minimal-columns">
+                <div class="accordion-body">
+                  <p class="text-secondary">
+                    komputasi awan yang dimiliki dan dioperasikan oleh
+                    organisasi tertentu. Private cloud menawarkan lebih banyak
+                    kontrol dan keamanan daripada public cloud, tetapi juga
+                    lebih mahal.
+                  </p>
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link fs-4"
+              href="#menu-3"
+              data-bs-toggle="collapse"
+              role="button"
+              aria-expanded="false"
+              aria-controls="menu-3"
+              >Hybrid cloud
+            </a>
+            <div class="collapse" id="menu-3" data-bs-parent="#toc-nav">
+              <ul class="nav nav-minimal nav-minimal-columns">
+                <div class="accordion-body">
+                  <p class="text-secondary">
+                    kombinasi dari public cloud dan private cloud. Hybrid cloud
+                    menawarkan fleksibilitas untuk menggunakan layanan public
+                    cloud dan private cloud sesuai kebutuhan.
+                  </p>
+                </div>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas-footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a
+              href="https://www.facebook.com/doni.serawai"
+              target="_blank"
+              class="text-muted text-primary-hover"
+              ><i class="bi bi-facebook fs-lg"></i
+            ></a>
+          </li>
+          <li class="list-inline-item ms-1">
+            <a
+              href="https://twitter.com/home"
+              target="_blank"
+              class="text-muted text-primary-hover"
+              ><i class="bi bi-twitter fs-lg"></i
+            ></a>
+          </li>
+          <li class="list-inline-item ms-1">
+            <a
+              href="https://www.instagram.com/dev_doni/?hl=id"
+              target="_blank"
+              class="text-muted text-primary-hover"
+              ><i class="bi bi-instagram fs-lg"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="offcanvas-wrap">
+      <div
+        data-center-top="@class:inverted bg-color-active;"
+        data-bottom-bottom="@class:inverted bg-color-active;"
+        data-edge-strategy="reset"
+      >
+        <span class="bg-color bg-black"></span>
+
+        <!-- hero -->
+        <section class="overflow-hidden bg-black inverted">
+          <div class="d-flex flex-column container py-20 min-vh-100 level-1">
+            <div
+              class="row align-items-center justify-content-center justify-content-lg-end my-auto"
+            >
+              <div class="col-md-8 col-lg-5 text-center text-lg-start">
+                <span class="badge bg-opaque-yellow text-yellow rounded-pill"
+                  >ᴀʏᴏ ꜱᴀᴍᴀ-ꜱᴀᴍᴀ ʙᴇʟᴀᴊᴀʀ</span
+                >
+                <h1 class="display-2 fw-bold lh-sm my-2 my-xl-4">
+                  ᴹᵉⁿᵍᵉⁿᵃˡ ˡᵉᵇⁱʰ ᵈᵉᵏᵃᵗ ᵗᵉⁿᵗᵃⁿᵍ ᶜˡᵒᵘᵈ ᶜᵒᵐᵖᵘᵗⁱⁿᵍ
+                </h1>
+                <a
+                  href="https://www.linknet.id/article/cloud-computing"
+                  target="_blank"
+                  class="btn btn-with-icon btn-yellow rounded-pill"
+                  >Maju Satu langkah <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid back back-background">
+            <div class="row h-100">
+              <div class="col-lg-6" data-aos="fade-in">
+                <figure
+                  class="background"
+                  style="background-image: url('./assets/images/me01.jpg')"
+                  data-top-top="transform: translateY(0%);"
+                  data-top-bottom="transform: translateY(10%);"
+                ></figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- accordion -->
+        <section class="py-15 py-xl-20">
+          <div class="container">
+            <div class="row justify-content-center mb-8">
+              <div class="col-lg-10">
+                <h2 class="fw-bold">
+                  <span class="d-lg-block"></span>
+                  𝐩𝐞𝐧𝐠𝐚𝐫𝐮𝐡 𝐤𝐨𝐦𝐩𝐮𝐭𝐚𝐬𝐢 𝐚𝐰𝐚𝐧 𝐮𝐧𝐭𝐮𝐤 𝐤𝐞𝐡𝐢𝐝𝐮𝐩𝐚𝐧 𝐦𝐚𝐧𝐮𝐬𝐢𝐚
+                </h2>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <div class="accordion accordion-highlight" id="accordion-1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1-1">
+                      <button
+                        class="accordion-button fs-lg collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse-1-1"
+                        aria-expanded="false"
+                        aria-controls="collapse-1-1"
+                      >
+                        <i class="bi bi-asterisk text-yellow fs-5 me-2"></i>
+                        Peningkatan produktivitas dan efisiensi
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse-1-1"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading-1-1"
+                      data-bs-parent="#accordion-1"
+                    >
+                      <div class="accordion-body">
+                        <p class="text-secondary">
+                          Komputasi awan memungkinkan kita untuk mengakses dan
+                          menggunakan sumber daya komputasi dari mana saja,
+                          kapan saja. Hal ini dapat meningkatkan produktivitas
+                          dan efisiensi kerja, belajar, dan bermain. Misalnya,
+                          kita dapat menggunakan aplikasi komputasi awan untuk
+                          mengerjakan tugas-tugas kantor di rumah, atau
+                          mengikuti kelas online dari mana saja.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1-2">
+                      <button
+                        class="accordion-button fs-lg collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse-1-2"
+                        aria-expanded="false"
+                        aria-controls="collapse-1-2"
+                      >
+                        <i class="bi bi-columns text-yellow fs-5 me-2"></i>
+                        Peningkatan aksesibilitas
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse-1-2"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading-1-2"
+                      data-bs-parent="#accordion-1"
+                    >
+                      <div class="accordion-body">
+                        <p class="text-secondary">
+                          Komputasi awan dapat membantu meningkatkan
+                          aksesibilitas ke teknologi dan informasi. Misalnya,
+                          orang-orang di daerah terpencil dapat mengakses
+                          aplikasi dan layanan komputasi awan melalui internet.
+                          Hal ini dapat membantu mereka untuk tetap terhubung
+                          dengan dunia dan mengejar pendidikan dan peluang
+                          lainnya.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1-3">
+                      <button
+                        class="accordion-button fs-lg collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse-1-3"
+                        aria-expanded="false"
+                        aria-controls="collapse-1-3"
+                      >
+                        <i class="bi bi-palette2 text-yellow fs-5 me-2"></i>
+                        Peningkatan inovasi
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse-1-3"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading-1-3"
+                      data-bs-parent="#accordion-1"
+                    >
+                      <div class="accordion-body">
+                        <p class="text-secondary">
+                          Komputasi awan dapat mendorong inovasi dengan
+                          menyediakan platform yang lebih terjangkau dan
+                          fleksibel untuk mengembangkan dan menyebarkan aplikasi
+                          dan layanan baru. Misalnya, startup dapat menggunakan
+                          komputasi awan untuk mengembangkan aplikasi dan
+                          layanan baru tanpa harus berinvestasi dalam
+                          infrastruktur komputasi yang mahal.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1-4">
+                      <button
+                        class="accordion-button fs-lg collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse-1-4"
+                        aria-expanded="false"
+                        aria-controls="collapse-1-4"
+                      >
+                        <i class="bi bi-cloud-check text-yellow fs-5 me-2"></i>
+                        Perubahan pola konsumsi
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse-1-4"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading-1-4"
+                      data-bs-parent="#accordion-1"
+                    >
+                      <div class="accordion-body">
+                        <p class="text-secondary">
+                          Komputasi awan dapat mengubah pola konsumsi kita.
+                          Misalnya, kita dapat berlangganan layanan komputasi
+                          awan berdasarkan penggunaan, sehingga kita hanya
+                          membayar untuk sumber daya yang kita gunakan. Hal ini
+                          dapat membantu kita menghemat uang dan mengurangi
+                          dampak lingkungan.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- features -->
+        <section class="inverted mx-xl-3 overflow-hidden">
+          <div
+            class="d-flex flex-column container py-15 py-xl-20 min-vh-75 level-1"
+          >
+            <div class="row mb-8">
+              <div class="col text-center">
+                <h2 class="fs-1 fw-bold">𝚂𝚎𝚖𝚞𝚊 𝚓𝚊𝚍𝚒 𝚕𝚎𝚋𝚒𝚑 𝚖𝚞𝚍𝚊𝚑</h2>
+              </div>
+            </div>
+            <div
+              class="row g-4 g-lg-5 justify-content-center align-items-center mt-auto"
+            >
+              <div class="col-lg-3 text-center">
+                <h4 class="text-muted lh-sm fw-normal">
+                  <span class="text-white">𝚖𝚞𝚍𝚊𝚑</span> Di akses
+                </h4>
+              </div>
+              <div class="col-4 col-md-2 col-lg-1">
+                <img
+                  class="img-fluid px-2 px-lg-0"
+                  src="./assets/images/svg/divider.svg"
+                  alt="Divider"
+                />
+              </div>
+              <div class="col-lg-3 text-center">
+                <h4 class="text-muted lh-sm fw-normal">
+                  <span class="text-white">𝚖𝚞𝚍𝚊𝚑</span> didapatkan
+                </h4>
+              </div>
+              <div class="col-4 col-md-2 col-lg-1">
+                <img
+                  class="img-fluid px-2 px-lg-0"
+                  src="./assets/images/svg/divider.svg"
+                  alt="Divider"
+                />
+              </div>
+              <div class="col-lg-3 text-center">
+                <h4 class="text-muted lh-sm fw-normal">
+                  <span class="text-white">𝚖𝚞𝚍𝚊𝚑</span> untuk di kembangkan
+                </h4>
+              </div>
+            </div>
+          </div>
+          <figure
+            class="background background-overlay"
+            style="background-image: url('./assets/images/me02.jpg')"
+          ></figure>
+        </section>
+      </div>
+
+      <!-- image frame -->
+      <section class="py-15 py-xl-20">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="frame">
+                <img src="./assets/images/me02.jpg" class="img-fluid" alt="" />
+                <span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+              <h2 class="fw-bold">
+                <span class="badge bg-opaque-yellow text-yellow rounded-pill"
+                  >gambar di samping hanya pelengkap</span
+                >
+                beberapa contoh spesifik dari pengaruh komputasi awan untuk
+                kehidupan manusia
+              </h2>
+              <p class="text-secondary">
+                Di dunia kerja, komputasi awan telah memungkinkan karyawan untuk
+                bekerja dari jarak jauh. Hal ini telah meningkatkan
+                fleksibilitas dan produktivitas karyawan. Di dunia pendidikan,
+                komputasi awan telah memungkinkan siswa untuk mengakses materi
+                pelajaran dan mengikuti kelas online. Hal ini telah meningkatkan
+                aksesibilitas pendidikan dan mendorong inklusi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel -->
+      <section class="overflow-hidden">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-6">
+              <span class="eyebrow mb-2 text-muted">koleksi Foto</span>
+              <h2 class="fw-bold">
+                <span class="d-lg-block">ₕₐₙyₐ fₒₜₒ ₚₑₗₑₙgₖₐₚ</span> 𝐵𝓎 𝒟𝑒𝓋 𝒟𝑜𝓃𝒾
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-10 col-lg-8" data-aos="fade-left">
+              <div
+                class="carousel carousel-visible carousel-big-controls gallery-1"
+              >
+                <div
+                  data-carousel='{"mouseDrag": true, "gutter": 48, "loop": true, "items": 1, "nav": false}'
+                >
+                  <div>
+                    <figure
+                      class="media media-image equal-16-10"
+                      data-bp='{"imgSrc": "./assets/images/me03.jpg" , "parentGalleryClass": "gallery-1" }'
+                    >
+                      <span
+                        style="
+                          background-image: url('./assets/images/me03.jpg');
+                        "
+                      >
+                      </span>
+                    </figure>
+                  </div>
+
+                  <div>
+                    <figure
+                      class="media media-image equal-16-10"
+                      data-bp='{"imgSrc": "./assets/images/me04.jpg" , "parentGalleryClass": "gallery-1" }'
+                    >
+                      <span
+                        style="
+                          background-image: url('./assets/images/me04.jpg');
+                        "
+                      >
+                      </span>
+                    </figure>
+                  </div>
+
+                  <div>
+                    <figure
+                      class="media media-image equal-16-10"
+                      data-bp='{"imgSrc": "./assets/images/me05.jpg" , "parentGalleryClass": "gallery-1" }'
+                    >
+                      <span
+                        style="
+                          background-image: url('./assets/images/me05.jpg');
+                        "
+                      >
+                      </span>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="py-15 py-xl-20">
+        <div class="container">
+          <div class="row g-4 g-lg-5 mb-10">
+            <div class="col-md-3 text-center text-md-start">
+              <a href="./index.html" class="navbar-brand"
+                ><img src="./assets/images/logo/logo-dark.svg" alt="Logo"
+              /></a>
+            </div>
+            <div class="col-md-4 col-lg-5 text-center text-md-start">
+              <ul class="list-unstyled">
+                <li class="mb-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li class="mb-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li class="mb-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li class="mb-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li>
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          <div class="row align-items-center g-1 g-lg-6 text-muted">
+            <div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start">
+              <ul class="list-inline small">
+                <li class="list-inline-item">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li class="list-inline-item ms-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+                <li class="list-inline-item ms-1">
+                  <a href="" class="text-reset text-primary-hover"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+              <span class="small">INDONESIA, PONTIANAK KALIMANTAN BARAT</span>
+            </div>
+            <div class="col-lg-3 order-lg-1 text-center text-md-start">
+              <p class="small">Dev Doni</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <script src="./assets/js/index.bundle.js"></script>
+  </body>
+</html>
